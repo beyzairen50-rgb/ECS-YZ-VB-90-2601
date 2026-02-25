@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Murat Altun | Yapay Zekâ Uzmanı</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: var(--secondary-color);
+            margin-top: 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .skill-badge {
+            background: #e1f0fa;
+            color: var(--secondary-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            background: var(--secondary-color);
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+        .social-links a:hover {
+            background: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Dr. Murat Altun 🎓🤖</h1>
+        <p>Yapay Zekâ Uzmanı, Eğitmen ve Danışman</p>
+    </header>
+
+    <div class="skills">
+        <span class="skill-badge">📊 Veri Analizi</span>
+        <span class="skill-badge">🛠️ Veri Madenciliği</span>
+        <span class="skill-badge">📚 Makine Öğrenimi</span>
+        <span class="skill-badge">🤖 Yapay Zekâ</span>
+        <span class="skill-badge">🐍 Python</span>
+    </div>
+
+    <section>
+        <h2>Hakkında 🌍</h2>
+        <p>Dr. Murat Altun, Türkiye'de yapay zekâ (YZ) alanında uzman bir isimdir. Profesyonel bir eğitmen ve danışman olarak çalışan Dr. Altun, engin bilgisi, pratik deneyimi ve eğitime olan bağlılığıyla Türkiye'de ve ötesinde yapay zekanın anlaşılması ve uygulanmasında önemli adımlar atmaktadır.</p>
+    </section>
+
+    <section>
+        <h2>Öne Çıkan Çalışmalar ve Projeler 🚀</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>📘 Kitap: Yapay Zekâ Uygulamaları</h3>
+                <p>Orta ve lise öğretmenleri için yapay zekâ uygulamalarını ele alan kapsamlı bir el kitabı.</p>
+            </div>
+            <div class="card">
+                <h3>📈 FEYZA Projesi</h3>
+                <p>Milli Eğitim Bakanlığı tarafından başlatılan, eğitim dönüşümü için YZ teknolojilerinden yararlanmayı amaçlayan vizyoner projeye katkı.</p>
+            </div>
+            <div class="card">
+                <h3>🧩 Blok Tabanlı YZ Eğitimi</h3>
+                <p>Güncellenmiş içeriğiyle 8. sürümüne ulaşan, 16 saatlik profesyonel yapay zekâ eğitim programı.</p>
+            </div>
+            <div class="card">
+                <h3>📺 YZ ile Gerçek Projeler</h3>
+                <p>Uzmanlığını gerçek dünya projelerine taşıdığı ve deneyimlerini paylaştığı etkileşimli YouTube sunumu.</p>
+            </div>
+            <div class="card">
+                <h3>📑 Akademik Araştırmalar</h3>
+                <p>İnsan zekâsını yapay sistemler aracılığıyla taklit etmeyi amaçlayan ResearchGate'teki kapsamlı araştırma profili.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Bağlantı Kuralım! 👇</h2>
+        <p>Aşağıdaki sosyal medya hesaplarımızdan bizi takip etmeyi unutmayın:</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">YouTube</a>
+            <a href="#">ResearchGate</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
