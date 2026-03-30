@@ -14,4 +14,5 @@ https://colab.research.google.com/drive/1hq2tQOw56HB0lYQB66Wok3-G7TeCI3sX?usp=sh
 
 
 
-Ders 12-Google Trend Analizi:https://colab.research.google.com/drive/1fYGX2PY7qcBu96glVQ6btQOpHJNlntY5?usp=sharing
+Ders 12:Google Trend Analizi:https://colab.research.google.com/drive/1fYGX2PY7qcBu96glVQ6btQOpHJNlntY5?usp=sharing
+Ders 13:https://colab.research.google.com/drive/1Cv1uzw9uhDPXJNmVM7ZvCECMHdaj178W?usp=sharing
