@@ -6,3 +6,12 @@ Ders 2- Pyhton Temelleri Numpy Pandas: https://colab.research.google.com/drive/1
 Ders 3- Veri Bilimi :https://colab.research.google.com/drive/1zFKob-wYWdTpUBdm3DzW-4_OTGKVtN-f?usp=sharing
  Git Hub Profilim:https://github.com/beyzairen50-rgb/Beyza.git
 https://colab.research.google.com/drive/1hq2tQOw56HB0lYQB66Wok3-G7TeCI3sX?usp=sharing
+
+
+
+
+
+
+
+
+Ders 12-Google Trend Analizi:https://colab.research.google.com/drive/1fYGX2PY7qcBu96glVQ6btQOpHJNlntY5?usp=sharing
